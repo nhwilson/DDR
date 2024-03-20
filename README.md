@@ -16,15 +16,12 @@ Key updates include bumping to `python 3.7+` and `gensim 4.2.0`.
 3. Decompress the repository and navigate to it in terminal
 
 4. Create a virtual environment using the included YAML file. In Anaconda, type the following to do so:
-
 `conda env create --name ddr --file=ddr.yml`
 
 5. Activate the virtual environment. In Anaconda, type
-
 `conda activate ddr`
 
 6. Install the repository in the virtual environment by typing
-
 `python setup.py install`
 
 After installing DDR, you can import the packages into a python environment and use it as directed in the DDR-Introduction and DDR-Tutorial documentation.
