@@ -5,6 +5,8 @@ This package implements the distributed dictionary representation (DDR) algorith
 
 The [original repository](https://github.com/USC-CSSL/DDR) appears to no longer be maintained, and has been forked several times.  This repository adapts the [most recent fork](https://github.com/JThh/DDR), and is an attempt to both improve the documentation and make the code functional with modern python and gensim.
 
+Key updates include bumping to `python 3.7+` and `gensim 4.2.0`.
+
 # Installation Guidelines
 
 1. Download the repository
