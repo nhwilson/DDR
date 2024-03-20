@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='ddr',
-      version='0.1',
+      version='0.1.2',
       description='Functions for implementing and exploring Distributed Dictionary Representation',
       author='Joe Hoover',
       author_email='jehoover@usc.edu',
