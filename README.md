@@ -11,7 +11,7 @@ Key updates include bumping to `python 3.7+` and `gensim 4.2.0`.
 
 1. Download the repository
 
-2. Install [Anaconda]()^[Skip this if you know what you're doing!]
+2. (Optionally) Install [Anaconda](https://www.anaconda.com/)
 
 3. Decompress the repository and navigate to it in terminal
 
