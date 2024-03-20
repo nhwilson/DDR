@@ -21,6 +21,9 @@ def make_agg_vec(words, model, num_features, model_word_set, filter_out=[]):
     nwords = 0.
 
     for word in words:
+        # decode bytecode for correct model_word_set lookup
+        word = word.decode("utf-8")
+        
         if word not in filter_out:
             if word in model_word_set:
                 nwords += 1
