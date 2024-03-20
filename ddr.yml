@@ -67,4 +67,4 @@ dependencies:
       - scipy==1.7.3
       - smart-open==7.0.1
       - wrapt==1.16.0
-prefix: /home/nick/anaconda3/envs/ddr
+prefix: ./anaconda3/envs/ddr
