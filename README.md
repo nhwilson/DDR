@@ -3,7 +3,7 @@ DDR README
 
 This package implements the distributed dictionary representation (DDR) algorithm, which allows users to estimate the loading of the documents in a corpus on a set of latent constructs. For more details see: https://link.springer.com/article/10.3758/s13428-017-0875-9.
 
-The original repository appears to no longer be maintained, and has been forked several times.  These, too, no longer appeared maintained, so this is an attempt to both improve the documentation of the original repository and make the code functional with modern python and gensim.
+The [original repository](https://github.com/USC-CSSL/DDR) appears to no longer be maintained, and has been forked several times.  This adapts the [most recent fork](https://github.com/JThh/DDR), and is an attempt to both improve the documentation and make the code functional with modern python and gensim.
 
 # Installation Guidelines
 
