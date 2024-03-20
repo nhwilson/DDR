@@ -7,34 +7,22 @@ The original repository appears to no longer be maintained, and has been forked 
 
 # Installation Guidelines
 
-Currently, this package requires an installation of python 2.7+, as well as the following
-dependencies:
+1. Download the repository
 
-* numpy
-* pandas
-* cython
-* gensim==2.1.0
+2. Install [Anaconda]()^[Skip this if you know what you're doing!]
 
+3. Decompress the repository and navigate to it in terminal
 
-Guidelines for installing python and these dependencies can be found here: https://packaging.python.org/installing/
+4. Create a virtual environment using the included YAML file. In Anaconda, type the following to do so:
 
-Users who are new to python, may find the Anaconda platform easier to work with. Installation
-information can be found here: https://docs.continuum.io/anaconda/install.
+`conda env create --name ddr --file=ddr.yml`
 
-To install DDR you can use the following steps:
+5. Activate the virtual environment. In Anaconda, type
 
-1. Download this repository
-2. Open a terminal session and navigate to the downloaded DDR directory that contains 'setup.py'.
-3. Run:
+`conda activate ddr`
 
+6. Install the repository in the virtual environment by typing
 
-    $ python setup.py install
+`python setup.py install`
 
-
-After installing DDR, you can import the packages into a python environment and use it
-as directed in the DDR-Introduction and DDR-Tutorial documentation.
-
-
-
-
-
+After installing DDR, you can import the packages into a python environment and use it as directed in the DDR-Introduction and DDR-Tutorial documentation.
