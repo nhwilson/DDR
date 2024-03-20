@@ -24,4 +24,6 @@ Key updates include bumping to `python 3.7+` and `gensim 4.2.0`.
 6. Install the repository in the virtual environment by typing
 `python setup.py install`
 
-After installing DDR, you can import the packages into a python environment and use it as directed in the DDR-Introduction and DDR-Tutorial documentation.
+# Usage
+
+[TBD]
