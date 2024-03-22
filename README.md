@@ -29,3 +29,5 @@ Key updates include bumping to `python 3.7+` and `gensim 4.2.0`.
 - For testing, download and unzip the [google news word2vec weights](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?pli=1&resourcekey=0-wjGZdNAUop6WykTtMip30g)
 
 [TBD]
+
+Test corpus: first three paragraphs of https://www.gutenberg.org/ebooks/73230, then first three long, descriptive paragraphs of https://www.gutenberg.org/ebooks/73229.
