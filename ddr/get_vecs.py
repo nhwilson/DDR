@@ -23,6 +23,7 @@ def make_agg_vec(words, model, num_features, model_word_set, filter_out=[]):
     for word in words:
         # decode bytecode for correct model_word_set lookup
         # do this only if it's not a string
+        
         try:
             word = word.decode("utf-8")
         except AttributeError:
